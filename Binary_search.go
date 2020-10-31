@@ -24,6 +24,6 @@ func binarySearch(needle int, haystack []int) bool {
 	return true
 }
 func main() {
-	items := []int{1, 2, 9, 20, 31, 45, 63, 70, 100}
+	items := []int{1, 2, 9, 20, 31, 45, 63, 70, 100, 101}
 	fmt.Println(binarySearch(63, items))
 }
